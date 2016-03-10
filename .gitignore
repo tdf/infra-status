@@ -1,0 +1,5 @@
+srv.pid
+output/
+pelican.pid
+__pycache__/
+.python-version
