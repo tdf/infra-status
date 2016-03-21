@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'The Document Foundation'
 SITENAME = 'The Document Foundation Infrastructure Status'
 SITEURL = ''
+THEME = 'theme'
 
 PATH = 'content'
 
