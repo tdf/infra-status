@@ -8,3 +8,8 @@ Update
 ------
 
 The readonly mode was disabled, but new user registration is prohibited for now.
+
+Update 2
+--------
+
+Wiki registration is now enabled again.
