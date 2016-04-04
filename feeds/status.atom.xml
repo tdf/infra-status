@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-03-16T00:00:00+01:00</updated><entry><title>Wiki Readonly due to spam attack</title><link href="http://status.documentfoundation.org/wiki-readonly.html" rel="alternate"></link><updated>2016-03-16T00:00:00+01:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-16:wiki-readonly.html</id><summary type="html">&lt;p&gt;Due to a massive spamming attack on our wiki it was switched to readonly mode.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-04T00:00:00+02:00</updated><entry><title>Planned network outage on bilbo2</title><link href="http://status.documentfoundation.org/bilbo-switch-change.html" rel="alternate"></link><updated>2016-04-04T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-04:bilbo-switch-change.html</id><summary type="html">&lt;p&gt;During 2100 and 0300 UTC in the night from April 4 to April 5 there will be a short (5 Minute) outage of the network connection to our host bilbo2.
+This might affect the following services:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Mirroring of downloads&lt;/li&gt;
+&lt;li&gt;Downloadarchive&lt;/li&gt;
+&lt;li&gt;Listarchives&lt;/li&gt;
+&lt;li&gt;Public mailing lists&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>Wiki Readonly due to spam attack</title><link href="http://status.documentfoundation.org/wiki-readonly.html" rel="alternate"></link><updated>2016-03-16T00:00:00+01:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-16:wiki-readonly.html</id><summary type="html">&lt;p&gt;Due to a massive spamming attack on our wiki it was switched to readonly mode.
 We work on the issue and udpate this page as soon as all services are operational again.&lt;/p&gt;
 &lt;div class="section" id="update"&gt;
 &lt;h2&gt;Update&lt;/h2&gt;
