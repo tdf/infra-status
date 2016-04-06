@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-04T00:00:00+02:00</updated><entry><title>Planned network outage on bilbo2</title><link href="http://status.documentfoundation.org/bilbo-switch-change.html" rel="alternate"></link><updated>2016-04-04T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-04:bilbo-switch-change.html</id><summary type="html">&lt;p&gt;During 2100 and 0300 UTC in the night from April 4 to April 5 there will be a short (5 Minute) outage of the network connection to our host bilbo2.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-06T00:00:00+02:00</updated><entry><title>Planned outage of buildbots and core router</title><link href="http://status.documentfoundation.org/buildbots-gustl-move.html" rel="alternate"></link><updated>2016-04-06T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-06:buildbots-gustl-move.html</id><summary type="html">&lt;p&gt;Due to the migration of our colocated servers to a new rack (our own rack for that), the following servers will be unreachable for about an hour on &lt;em&gt;Tuesday, 12 April, from 0730 UTC on&lt;/em&gt;.
+The following servers will be affected by the move:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;juttan&lt;/li&gt;
+&lt;li&gt;kuleha&lt;/li&gt;
+&lt;li&gt;gustl&lt;/li&gt;
+&lt;li&gt;maggie&lt;/li&gt;
+&lt;li&gt;lilith&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following services will be affected:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;buildbots&lt;/li&gt;
+&lt;li&gt;intranet routing&lt;/li&gt;
+&lt;li&gt;intranet VPN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No other services will be affected.&lt;/p&gt;
+</summary></entry><entry><title>Planned network outage on bilbo2</title><link href="http://status.documentfoundation.org/bilbo-switch-change.html" rel="alternate"></link><updated>2016-04-04T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-04:bilbo-switch-change.html</id><summary type="html">&lt;p&gt;During 2100 and 0300 UTC in the night from April 4 to April 5 there will be a short (5 Minute) outage of the network connection to our host bilbo2.
 This might affect the following services:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Mirroring of downloads&lt;/li&gt;
