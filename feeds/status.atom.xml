@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-11T00:00:00+02:00</updated><entry><title>Planned downtime of Pootle</title><link href="http://status.documentfoundation.org/pootle-update.html" rel="alternate"></link><updated>2016-04-11T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-11:pootle-update.html</id><summary type="html">&lt;p&gt;A pootle security update needs to be installed.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-13T00:00:00+02:00</updated><entry><title>Planned downtime of dauntless</title><link href="http://status.documentfoundation.org/dauntless-downtime.html" rel="alternate"></link><updated>2016-04-13T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-13:dauntless-downtime.html</id><summary type="html">&lt;p&gt;Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:
+- vm138 - crashtest
+- vm152 - mail-test
+- vm159 - mailhost-test
+- vm165 - bibisect repos
+- vm167 - bitgeria metrics
+- vm171 - crashreport
+- vm172 - online help mod
+- vm173 - hc3 test
+- vm174 - statistics
+- win2k12r2&lt;/p&gt;
+&lt;p&gt;The downtime will be on Wednesday, April 20, 0730 UTC and last for about 30 Minutes.&lt;/p&gt;
+</summary></entry><entry><title>Planned downtime of Pootle</title><link href="http://status.documentfoundation.org/pootle-update.html" rel="alternate"></link><updated>2016-04-11T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-11:pootle-update.html</id><summary type="html">&lt;p&gt;A pootle security update needs to be installed.
 Due to the needed database migrations, this might take quite a long time. The update process starts on Monday, 18 April, 0300 UTC and might take up to 12 hours. During that timeframe, pootle will be offline.&lt;/p&gt;
 </summary></entry><entry><title>Planned outage of buildbots and core router</title><link href="http://status.documentfoundation.org/buildbots-gustl-move.html" rel="alternate"></link><updated>2016-04-06T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-06:buildbots-gustl-move.html</id><summary type="html">&lt;p&gt;Due to the migration of our colocated servers to a new rack (our own rack for that), the following servers will be unreachable for about an hour on &lt;em&gt;Tuesday, 12 April, from 0730 UTC on&lt;/em&gt;.
 The following servers will be affected by the move:&lt;/p&gt;
