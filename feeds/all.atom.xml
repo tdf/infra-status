@@ -23,8 +23,8 @@
 &lt;/div&gt;
 </summary></entry><entry><title>Planned downtime of Pootle</title><link href="http://status.documentfoundation.org/pootle-update.html" rel="alternate"></link><updated>2016-04-11T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-11:pootle-update.html</id><summary type="html">&lt;p&gt;A pootle security update needs to be installed.
 Due to the needed database migrations, this might take quite a long time. The update process starts on Monday, 18 April, 0300 UTC and might take up to 12 hours. During that timeframe, pootle will be offline.&lt;/p&gt;
-&lt;div class="section" id="update"&gt;
-&lt;h2&gt;Update&lt;/h2&gt;
+&lt;div class="section" id="update-2016-04-20-1230utc"&gt;
+&lt;h2&gt;Update 2016-04-20 1230UTC&lt;/h2&gt;
 &lt;p&gt;The database migration is still in progress as of Wednesday, 20 April, 1230 UTC.
 It is taking longer than expected by the pootle experts.&lt;/p&gt;
 &lt;p&gt;Details about the ongoing migration:&lt;/p&gt;
