@@ -37,18 +37,28 @@
         </address>
 <p>In <a href="http://status.documentfoundation.org/category/status.html">Status</a>.</p>
 
-</footer><!-- /.post-info -->      <p>Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:
-- vm138 - crashtest
-- vm152 - mail-test
-- vm159 - mailhost-test
-- vm165 - bibisect repos
-- vm167 - bitgeria metrics
-- vm171 - crashreport
-- vm172 - online help mod
-- vm173 - hc3 test
-- vm174 - statistics
-- win2k12r2</p>
+</footer><!-- /.post-info -->      <p>Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:</p>
+<ul class="simple">
+<li>vm138 - crashtest</li>
+<li>vm152 - mail-test</li>
+<li>vm159 - mailhost-test</li>
+<li>vm165 - bibisect repos</li>
+<li>vm167 - bitgeria metrics</li>
+<li>vm171 - crashreport</li>
+<li>vm172 - online help mod</li>
+<li>vm173 - hc3 test</li>
+<li>vm174 - statistics</li>
+<li>win2k12r2</li>
+</ul>
 <p>The downtime will be on Wednesday, April 20, 0730 UTC and last for about 30 Minutes.</p>
+<div class="section" id="update">
+<h2>Update</h2>
+<p>The downtime lasted about 150 Minutes due to the following problems that occured:</p>
+<ul class="simple">
+<li>During reboot, the RAID was not assembled as fast as expected by systemd. Fixed by adding rootdelay=10 to /etc/default/grub</li>
+<li>The network configuration with bridges was hard to adapt over kvm, and ifdown/ifup are not good enough for our complex network configuration, so a reboot was required.</li>
+</ul>
+</div>
 
     </div><!-- /.entry-content -->
 

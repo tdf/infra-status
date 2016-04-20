@@ -39,6 +39,21 @@
 
 </footer><!-- /.post-info -->      <p>A pootle security update needs to be installed.
 Due to the needed database migrations, this might take quite a long time. The update process starts on Monday, 18 April, 0300 UTC and might take up to 12 hours. During that timeframe, pootle will be offline.</p>
+<div class="section" id="update">
+<h2>Update</h2>
+<p>The database migration is still in progress as of Wednesday, 20 April, 1230 UTC.
+It is taking longer than expected by the pootle experts.</p>
+<p>Details about the ongoing migration:</p>
+<ul class="simple">
+<li>The current database migration is the addition of a column to the largest table of pootle</li>
+<li>The size of the tablespace for this table alone is over 33G</li>
+<li>The MySQL/InnoDB database that is used uses a temporary table to store the data while a new table with the additional column is created</li>
+<li>The size of the temporary table is currently 9.3G</li>
+<li>The tablespace for the original table of 33G may contain unused space due to the structure of InnoDB</li>
+<li>In worst case scenario, the migration of this table alone might take until Friday</li>
+</ul>
+<p>After evaluating the different options (continuing migration/aborting migration and downgrade), we decided to continue on until Friday Noon. If no sufficient progress was made by then, the migration will be aborted and the pootle installation downgraded.</p>
+</div>
 
     </div><!-- /.entry-content -->
 
