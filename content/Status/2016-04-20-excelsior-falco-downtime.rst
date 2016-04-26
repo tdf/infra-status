@@ -50,3 +50,8 @@ Update April 26, 0830UTC
 ========================
 
 The newly fitted network card for excelsior seems to have one faulty port. Excelsior needs to be shutoff again to replace the interface
+
+Update April 26, 0845UTC
+========================
+
+A HDD on excelsior also failed during migration, it will be replaced during the second downtime.
