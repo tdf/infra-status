@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-20T00:00:00+02:00</updated><entry><title>Migration of Excelsior and Falco</title><link href="http://status.documentfoundation.org/excelsior-falco-downtime.html" rel="alternate"></link><updated>2016-04-20T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-20:excelsior-falco-downtime.html</id><summary type="html">&lt;p&gt;For the migration of our virtualization servers to our own rack and the upgrade to 10G based Intranet, we plan the downtime of excelsior on April 26, 0730UTC, and the downtime of falcon on April 27, 0730UTC. The downtime should last about one hour.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-04-26T00:00:00+02:00</updated><entry><title>DoS Attack on Manitu</title><link href="http://status.documentfoundation.org/dos-attack.html" rel="alternate"></link><updated>2016-04-26T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-26:dos-attack.html</id><summary type="html">&lt;p&gt;Our Hoster Manitu is currently experiencing a DoS attack on its infrastructure. They are working on measures to fight the attack.
+This might affect the availability of many of our services.&lt;/p&gt;
+</summary></entry><entry><title>Migration of Excelsior and Falco</title><link href="http://status.documentfoundation.org/excelsior-falco-downtime.html" rel="alternate"></link><updated>2016-04-20T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-20:excelsior-falco-downtime.html</id><summary type="html">&lt;p&gt;For the migration of our virtualization servers to our own rack and the upgrade to 10G based Intranet, we plan the downtime of excelsior on April 26, 0730UTC, and the downtime of falcon on April 27, 0730UTC. The downtime should last about one hour.
 The vms that will be affected are:&lt;/p&gt;
 &lt;div class="section" id="excelsior-april-26-0730utc"&gt;
 &lt;h2&gt;Excelsior - April 26, 0730UTC&lt;/h2&gt;
@@ -50,6 +52,10 @@ The vms that will be affected are:&lt;/p&gt;
 &lt;div class="section" id="update-april-26-0845utc"&gt;
 &lt;h2&gt;Update April 26, 0845UTC&lt;/h2&gt;
 &lt;p&gt;A HDD on excelsior also failed during migration, it will be replaced during the second downtime.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="update-april-26-1110-utc"&gt;
+&lt;h2&gt;Update April 26, 1110 UTC&lt;/h2&gt;
+&lt;p&gt;Excelsior is up and running.&lt;/p&gt;
 &lt;/div&gt;
 </summary></entry><entry><title>Planned downtime of dauntless</title><link href="http://status.documentfoundation.org/dauntless-downtime.html" rel="alternate"></link><updated>2016-04-13T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-13:dauntless-downtime.html</id><summary type="html">&lt;p&gt;Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:&lt;/p&gt;
 &lt;ul class="simple"&gt;
