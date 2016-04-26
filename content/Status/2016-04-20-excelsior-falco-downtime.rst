@@ -39,3 +39,9 @@ Falco - April 27, 0730UTC
 - vm178 - gerrit-test
 - vm186 - new downloadarchive
 - centOS64bit
+
+
+Update April 26, 0820UTC
+========================
+
+excelsior has been migrated. There are some slight issues regarding the intranet connection, all public services are available again.
