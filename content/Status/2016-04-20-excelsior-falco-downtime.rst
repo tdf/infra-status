@@ -55,3 +55,8 @@ Update April 26, 0845UTC
 ========================
 
 A HDD on excelsior also failed during migration, it will be replaced during the second downtime.
+
+Update April 26, 1110 UTC
+=========================
+
+Excelsior is up and running.
