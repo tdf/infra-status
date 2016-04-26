@@ -45,3 +45,8 @@ Update April 26, 0820UTC
 ========================
 
 excelsior has been migrated. There are some slight issues regarding the intranet connection, all public services are available again.
+
+Update April 26, 0830UTC
+========================
+
+The newly fitted network card for excelsior seems to have one faulty port. Excelsior needs to be shutoff again to replace the interface
