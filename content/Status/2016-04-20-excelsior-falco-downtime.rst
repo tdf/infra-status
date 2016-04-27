@@ -66,3 +66,8 @@ Update April 27, 0920 UTC
 =========================
 
 Migration of falco takes a bit longer than expected - again Network card struggles - working on it.
+
+Update April 27, 1030 UTC
+=========================
+
+Falco is up and running.
