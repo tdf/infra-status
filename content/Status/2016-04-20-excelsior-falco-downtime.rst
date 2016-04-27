@@ -60,3 +60,9 @@ Update April 26, 1110 UTC
 =========================
 
 Excelsior is up and running.
+
+
+Update April 27, 0920 UTC
+=========================
+
+Migration of falco takes a bit longer than expected - again Network card struggles - working on it.
