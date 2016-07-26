@@ -11,6 +11,10 @@
 &lt;h2&gt;Update July 26, 0735UTC&lt;/h2&gt;
 &lt;p&gt;Gerrit, Jenkins, Bugzilla are back up.&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="section" id="update-july-26-0855utc"&gt;
+&lt;h2&gt;Update July 26, 0855UTC&lt;/h2&gt;
+&lt;p&gt;Falco needs to be rebooted to rescue, as we ran into a Bug in Debian Jessie (&lt;a class="reference external" href="http://unix.stackexchange.com/questions/235643/why-does-mdadm-believe-my-raid1-has-failed-so-using-add-cannot-work"&gt;http://unix.stackexchange.com/questions/235643/why-does-mdadm-believe-my-raid1-has-failed-so-using-add-cannot-work&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
 </summary></entry><entry><title>Downtime of Pumbaa</title><link href="http://status.documentfoundation.org/pumbaa-downtime.html" rel="alternate"></link><updated>2016-05-23T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-05-23:pumbaa-downtime.html</id><summary type="html">&lt;p&gt;Due to network restructuring at Hetzner, pumbaa will not be available during between 25 May 2016 23:00 hours (CEST) and 26 May 2016 05:00 hours (CEST) for a maximum of 5 minutes.&lt;/p&gt;
 &lt;p&gt;The following services are affected:&lt;/p&gt;
 &lt;ul class="simple"&gt;
