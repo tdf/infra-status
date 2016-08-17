@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/all.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-08-10T00:00:00+02:00</updated><entry><title>gerrit push fails with missing objects</title><link href="http://status.documentfoundation.org/gerrit-problems.html" rel="alternate"></link><published>2016-08-10T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-08-10:gerrit-problems.html</id><summary type="html">&lt;p&gt;Infra is working on restoring the missing objects from replica&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/all.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-08-17T00:00:00+02:00</updated><entry><title>askbot unavailable</title><link href="http://status.documentfoundation.org/askbot-problems.html" rel="alternate"></link><updated>2016-08-17T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-08-17:askbot-problems.html</id><summary type="html">&lt;p&gt;Askbot unfortunately is having some database troubles. Infra is working on fixing the problem.&lt;/p&gt;
+</summary></entry><entry><title>gerrit push fails with missing objects</title><link href="http://status.documentfoundation.org/gerrit-problems.html" rel="alternate"></link><updated>2016-08-10T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-08-10:gerrit-problems.html</id><summary type="html">&lt;p&gt;Infra is working on restoring the missing objects from replica&lt;/p&gt;
 &lt;p&gt;Seems a git gc was too aggressive...&lt;/p&gt;
-</summary></entry><entry><title>Outage of Falco</title><link href="http://status.documentfoundation.org/falco-outage.html" rel="alternate"></link><published>2016-07-26T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-07-26:falco-outage.html</id><summary type="html">&lt;p&gt;Due to a massive disk failure on our hypervisor falco, the following services are offline at the moment:&lt;/p&gt;
+</summary></entry><entry><title>Outage of Falco</title><link href="http://status.documentfoundation.org/falco-outage.html" rel="alternate"></link><updated>2016-07-26T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-07-26:falco-outage.html</id><summary type="html">&lt;p&gt;Due to a massive disk failure on our hypervisor falco, the following services are offline at the moment:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Gerrit&lt;/li&gt;
 &lt;li&gt;CI&lt;/li&gt;
@@ -17,16 +18,16 @@
 &lt;h2&gt;Update July 26, 0855UTC&lt;/h2&gt;
 &lt;p&gt;Falco needs to be rebooted to rescue, as we ran into a Bug in Debian Jessie (&lt;a class="reference external" href="http://unix.stackexchange.com/questions/235643/why-does-mdadm-believe-my-raid1-has-failed-so-using-add-cannot-work"&gt;http://unix.stackexchange.com/questions/235643/why-does-mdadm-believe-my-raid1-has-failed-so-using-add-cannot-work&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Downtime of Pumbaa</title><link href="http://status.documentfoundation.org/pumbaa-downtime.html" rel="alternate"></link><published>2016-05-23T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-05-23:pumbaa-downtime.html</id><summary type="html">&lt;p&gt;Due to network restructuring at Hetzner, pumbaa will not be available during between 25 May 2016 23:00 hours (CEST) and 26 May 2016 05:00 hours (CEST) for a maximum of 5 minutes.&lt;/p&gt;
+</summary></entry><entry><title>Downtime of Pumbaa</title><link href="http://status.documentfoundation.org/pumbaa-downtime.html" rel="alternate"></link><updated>2016-05-23T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-05-23:pumbaa-downtime.html</id><summary type="html">&lt;p&gt;Due to network restructuring at Hetzner, pumbaa will not be available during between 25 May 2016 23:00 hours (CEST) and 26 May 2016 05:00 hours (CEST) for a maximum of 5 minutes.&lt;/p&gt;
 &lt;p&gt;The following services are affected:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Redmine&lt;/li&gt;
 &lt;li&gt;&amp;#64;documentfoundation.org mail-adresses&lt;/li&gt;
 &lt;li&gt;private mailing lists&lt;/li&gt;
 &lt;/ul&gt;
-</summary></entry><entry><title>DoS Attack on Manitu</title><link href="http://status.documentfoundation.org/dos-attack.html" rel="alternate"></link><published>2016-04-26T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-26:dos-attack.html</id><summary type="html">&lt;p&gt;Our Hoster Manitu is currently experiencing a DoS attack on its infrastructure. They are working on measures to fight the attack.
+</summary></entry><entry><title>DoS Attack on Manitu</title><link href="http://status.documentfoundation.org/dos-attack.html" rel="alternate"></link><updated>2016-04-26T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-26:dos-attack.html</id><summary type="html">&lt;p&gt;Our Hoster Manitu is currently experiencing a DoS attack on its infrastructure. They are working on measures to fight the attack.
 This might affect the availability of many of our services.&lt;/p&gt;
-</summary></entry><entry><title>Migration of Excelsior and Falco</title><link href="http://status.documentfoundation.org/excelsior-falco-downtime.html" rel="alternate"></link><published>2016-04-20T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-20:excelsior-falco-downtime.html</id><summary type="html">&lt;p&gt;For the migration of our virtualization servers to our own rack and the upgrade to 10G based Intranet, we plan the downtime of excelsior on April 26, 0730UTC, and the downtime of falcon on April 27, 0730UTC. The downtime should last about one hour.
+</summary></entry><entry><title>Migration of Excelsior and Falco</title><link href="http://status.documentfoundation.org/excelsior-falco-downtime.html" rel="alternate"></link><updated>2016-04-20T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-20:excelsior-falco-downtime.html</id><summary type="html">&lt;p&gt;For the migration of our virtualization servers to our own rack and the upgrade to 10G based Intranet, we plan the downtime of excelsior on April 26, 0730UTC, and the downtime of falcon on April 27, 0730UTC. The downtime should last about one hour.
 The vms that will be affected are:&lt;/p&gt;
 &lt;div class="section" id="excelsior-april-26-0730utc"&gt;
 &lt;h2&gt;Excelsior - April 26, 0730UTC&lt;/h2&gt;
@@ -90,7 +91,7 @@ The vms that will be affected are:&lt;/p&gt;
 &lt;h2&gt;Update April 27, 1030 UTC&lt;/h2&gt;
 &lt;p&gt;Falco is up and running.&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Planned downtime of dauntless</title><link href="http://status.documentfoundation.org/dauntless-downtime.html" rel="alternate"></link><published>2016-04-13T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-13:dauntless-downtime.html</id><summary type="html">&lt;p&gt;Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:&lt;/p&gt;
+</summary></entry><entry><title>Planned downtime of dauntless</title><link href="http://status.documentfoundation.org/dauntless-downtime.html" rel="alternate"></link><updated>2016-04-13T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-13:dauntless-downtime.html</id><summary type="html">&lt;p&gt;Due to the upgrade of our infrastructure, there will be a planned downtime for our virtualization host dauntless, with the following VMs and services affected:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;vm138 - crashtest&lt;/li&gt;
 &lt;li&gt;vm152 - mail-test&lt;/li&gt;
@@ -112,7 +113,7 @@ The vms that will be affected are:&lt;/p&gt;
 &lt;li&gt;The network configuration with bridges was hard to adapt over kvm, and ifdown/ifup are not good enough for our complex network configuration, so a reboot was required.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Planned downtime of Pootle</title><link href="http://status.documentfoundation.org/pootle-update.html" rel="alternate"></link><published>2016-04-11T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-11:pootle-update.html</id><summary type="html">&lt;p&gt;A pootle security update needs to be installed.
+</summary></entry><entry><title>Planned downtime of Pootle</title><link href="http://status.documentfoundation.org/pootle-update.html" rel="alternate"></link><updated>2016-04-11T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-11:pootle-update.html</id><summary type="html">&lt;p&gt;A pootle security update needs to be installed.
 Due to the needed database migrations, this might take quite a long time. The update process starts on Monday, 18 April, 0300 UTC and might take up to 12 hours. During that timeframe, pootle will be offline.&lt;/p&gt;
 &lt;div class="section" id="update-2016-04-20-1230utc"&gt;
 &lt;h2&gt;Update 2016-04-20 1230UTC&lt;/h2&gt;
@@ -129,7 +130,7 @@ It is taking longer than expected by the pootle experts.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;After evaluating the different options (continuing migration/aborting migration and downgrade), we decided to continue on until Friday Noon. If no sufficient progress was made by then, the migration will be aborted and the pootle installation downgraded.&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Planned outage of buildbots and core router</title><link href="http://status.documentfoundation.org/buildbots-gustl-move.html" rel="alternate"></link><published>2016-04-06T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-06:buildbots-gustl-move.html</id><summary type="html">&lt;p&gt;Due to the migration of our colocated servers to a new rack (our own rack for that), the following servers will be unreachable for about an hour on &lt;em&gt;Tuesday, 12 April, from 0730 UTC on&lt;/em&gt;.
+</summary></entry><entry><title>Planned outage of buildbots and core router</title><link href="http://status.documentfoundation.org/buildbots-gustl-move.html" rel="alternate"></link><updated>2016-04-06T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-06:buildbots-gustl-move.html</id><summary type="html">&lt;p&gt;Due to the migration of our colocated servers to a new rack (our own rack for that), the following servers will be unreachable for about an hour on &lt;em&gt;Tuesday, 12 April, from 0730 UTC on&lt;/em&gt;.
 The following servers will be affected by the move:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;juttan&lt;/li&gt;
@@ -145,7 +146,7 @@ The following servers will be affected by the move:&lt;/p&gt;
 &lt;li&gt;intranet VPN&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;No other services will be affected.&lt;/p&gt;
-</summary></entry><entry><title>Planned network outage on bilbo2</title><link href="http://status.documentfoundation.org/bilbo-switch-change.html" rel="alternate"></link><published>2016-04-04T00:00:00+02:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-04:bilbo-switch-change.html</id><summary type="html">&lt;p&gt;During 2100 and 0300 UTC in the night from April 4 to April 5 there will be a short (5 Minute) outage of the network connection to our host bilbo2.
+</summary></entry><entry><title>Planned network outage on bilbo2</title><link href="http://status.documentfoundation.org/bilbo-switch-change.html" rel="alternate"></link><updated>2016-04-04T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-04-04:bilbo-switch-change.html</id><summary type="html">&lt;p&gt;During 2100 and 0300 UTC in the night from April 4 to April 5 there will be a short (5 Minute) outage of the network connection to our host bilbo2.
 This might affect the following services:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Mirroring of downloads&lt;/li&gt;
@@ -153,7 +154,7 @@ This might affect the following services:&lt;/p&gt;
 &lt;li&gt;Listarchives&lt;/li&gt;
 &lt;li&gt;Public mailing lists&lt;/li&gt;
 &lt;/ul&gt;
-</summary></entry><entry><title>Wiki Readonly due to spam attack</title><link href="http://status.documentfoundation.org/wiki-readonly.html" rel="alternate"></link><published>2016-03-16T00:00:00+01:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-16:wiki-readonly.html</id><summary type="html">&lt;p&gt;Due to a massive spamming attack on our wiki it was switched to readonly mode.
+</summary></entry><entry><title>Wiki Readonly due to spam attack</title><link href="http://status.documentfoundation.org/wiki-readonly.html" rel="alternate"></link><updated>2016-03-16T00:00:00+01:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-16:wiki-readonly.html</id><summary type="html">&lt;p&gt;Due to a massive spamming attack on our wiki it was switched to readonly mode.
 We work on the issue and udpate this page as soon as all services are operational again.&lt;/p&gt;
 &lt;div class="section" id="update"&gt;
 &lt;h2&gt;Update&lt;/h2&gt;
@@ -163,5 +164,5 @@ We work on the issue and udpate this page as soon as all services are operationa
 &lt;h2&gt;Update 2&lt;/h2&gt;
 &lt;p&gt;Wiki registration is now enabled again.&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Current Status</title><link href="http://status.documentfoundation.org/status.html" rel="alternate"></link><published>2016-03-10T00:00:00+01:00</published><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-10:status.html</id><summary type="html">&lt;p&gt;All services are operational as of now.&lt;/p&gt;
+</summary></entry><entry><title>Current Status</title><link href="http://status.documentfoundation.org/status.html" rel="alternate"></link><updated>2016-03-10T00:00:00+01:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-03-10:status.html</id><summary type="html">&lt;p&gt;All services are operational as of now.&lt;/p&gt;
 </summary></entry></feed>
