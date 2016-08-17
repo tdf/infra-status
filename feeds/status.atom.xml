@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>The Document Foundation Infrastructure Status</title><link href="http://status.documentfoundation.org/" rel="alternate"></link><link href="http://status.documentfoundation.org/feeds/status.atom.xml" rel="self"></link><id>http://status.documentfoundation.org/</id><updated>2016-08-17T00:00:00+02:00</updated><entry><title>askbot unavailable</title><link href="http://status.documentfoundation.org/askbot-problems.html" rel="alternate"></link><updated>2016-08-17T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-08-17:askbot-problems.html</id><summary type="html">&lt;p&gt;Askbot unfortunately is having some database troubles. Infra is working on fixing the problem.&lt;/p&gt;
+&lt;div class="section" id="update-16-08-17-15-00-utc"&gt;
+&lt;h2&gt;Update 16-08-17 15:00 UTC&lt;/h2&gt;
+&lt;p&gt;ask.libreoffice.org back in service&lt;/p&gt;
+&lt;/div&gt;
 </summary></entry><entry><title>gerrit push fails with missing objects</title><link href="http://status.documentfoundation.org/gerrit-problems.html" rel="alternate"></link><updated>2016-08-10T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-08-10:gerrit-problems.html</id><summary type="html">&lt;p&gt;Infra is working on restoring the missing objects from replica&lt;/p&gt;
 &lt;p&gt;Seems a git gc was too aggressive...&lt;/p&gt;
 </summary></entry><entry><title>Outage of Falco</title><link href="http://status.documentfoundation.org/falco-outage.html" rel="alternate"></link><updated>2016-07-26T00:00:00+02:00</updated><author><name>The Document Foundation</name></author><id>tag:status.documentfoundation.org,2016-07-26:falco-outage.html</id><summary type="html">&lt;p&gt;Due to a massive disk failure on our hypervisor falco, the following services are offline at the moment:&lt;/p&gt;
